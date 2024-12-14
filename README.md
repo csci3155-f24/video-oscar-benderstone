@@ -4,11 +4,19 @@
 
 See [instructions.md](instructions.md) for submission instructions.
 
-# TODO: Replace this with Your Project Title
+# Exploring the Express Web Framework
 
 ## Description
 
 TOD: Replace this with at least a few paragraphs describing your project.
+
+Electron is a framework used to create. Electron features many 
+
+
+Electron features many .
+
+To display Electron's features, my video outlines the key properties.
+
 ## Repository Organization
 
 TODO: Replace this with a description of the organization of your repository.

@@ -1,0 +1,16 @@
+{
+    "name": "demo",
+    "main": "src/index.js",
+    "dependencies": {
+        "express": "^4.6.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    },
+    "scripts": {
+        "start": "nodemon src/index.js"
+    },
+    "version": "1.0.0",
+    "description": "Mini-Project: showcase of PPL concepts in Express.JS.",
+    "author": "Oscar Bender-Stone"
+}
