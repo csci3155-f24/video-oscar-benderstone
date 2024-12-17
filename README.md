@@ -8,34 +8,22 @@ See [instructions.md](instructions.md) for submission instructions.
 
 ## Description
 
-Express is a popular JavaScript framework made by the OpenJS foundation to create web applications. The reason for this is  It provides an easy-to-use API for HTTP utilities, has a small footprint, and can be augmented with custom middleware. All of these features explain why Express is one of the most used JavaScript packages globally. According to npm, Express has 33,820,381 weekly downloads and 87,467 dependent packages [1]. The framework is well-maintained and continues to support several programs for the web.
+TOD: Replace this with at least a few paragraphs describing your project.
 
-In addition to its popularity and robustness, Express incorporates many PPL concepts. For instance, Express exemplifies functions as values, provides routes as higher order functions, and `map` throughout the codebase. Additionally, Express uses several abstract data types and parametric types, the latter of which appear in the package `@types/express`. Both of these aspects make the API more declarative and easier to use.
+Electron is a framework used to create. Electron features many 
 
-To analyze thse concepts in Express, this project is run with NodeJS with a browser. The source code contains examples of funtional programming and data types. Each example is rendered on its own separate webpage, with both the source code and output.
+
+Electron features many .
+
+To display Electron's features, my video outlines the key properties.
 
 ## Repository Organization
 
-- `build`
-    - `index.js`: Generated from `src/index.ts`. Used to run the project.
-- `src`
-    - `index.ts`: TypeScript source code. Shown in the demo to emphasize types.
-- `docker-compose.yaml`: manages the `docker-compose` configuration for this project.
-- `package.json`: manages the JavaScript dependencies and project commands.
-- `README.md`
-- `script.md`
+TODO: Replace this with a description of the organization of your repository.
 
 ## Building and Testing Instructions
 
-First, set up this project with NodeJS: `npm install`.
-
-Then, to test the source code, run: `docker-compose up`. On Linux/MacOS, you will (probably) need to run this command with `sudo`.
-
-# Sources
-
-[1] "express", NPM, [https://www.npmjs.com/package/express].
-
-[2] OpenJS Foundation, "Express.JS", [https://expressjs.com/].
+TODO: Replace with building and testing instructions. Please minimize the number of dependencies and as simple and platform-independent as possible. Consider, for example, using [Docker](https://www.docker.com/).
 
 ## Presentation
 

@@ -13,4 +13,4 @@ services:
       # This should not affect
       # other Operating Systems
       - ./:/home/node/app:z
-    command: 'npm test'
+    command: 'npm start run'
