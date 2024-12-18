@@ -16,7 +16,6 @@ To demo these concepts in Express, this project uses a TypeScript file with seve
 
 ## Repository Organization
 - `src/index.ts`: contains the main source file used in the demo, with type annotations.
-- `build/index.js`: contains the code that docker runs in the browser.
 - `README.md`
 - `script.md`
 
