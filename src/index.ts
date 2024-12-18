@@ -53,7 +53,7 @@ router.get('/user/:id', (req: Request, res: Response, next) => {
   else next()
 }, (req: Request, res: Response, next) => {
   // render a regular page
-  res.send('USR: regular')
+  res.send('USER: regular')
 })
 
 // handler for the /user/:id path, which renders a special page
@@ -72,7 +72,7 @@ router
   else next()
 }, (req: Request, res: Response, next) => {
   // render a regular page
-  res.send('USR: regular')
+  res.send('USER: regular')
 })
     .get('/user1/:id', (req, res, next) => {
   console.log(req.params.id)
@@ -94,7 +94,7 @@ app.get('/', (req: Request, res: Response) => {
 // See link:
 // DefinitelyTyped/DefinitelyTyped/types/express
 // License: MIT license
-// https://github.com/DefinitelyTyped/DefinitelyTyped/blob/3c2ad7892a2d12f005177087a909635a71a50bcf/types/express/index.d.ts#L96
+// https://github.com/DefinitelyTyped/DefinitelyTyped/blob/3c2ad7892a2d12f005177087a909635a71a50bcf/types/express/index.d.ts
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
