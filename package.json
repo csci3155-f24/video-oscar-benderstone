@@ -1,0 +1,19 @@
+{
+    "name": "demo",
+    "main": "src/index.js",
+    "dependencies": {
+        "@types/express": "^5.0.0",
+        "express": "^4.6.1",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.7.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    },
+    "scripts": {
+        "start": "nodemon --exec 'ts-node' src/index.ts"
+    },
+    "version": "1.0.0",
+    "description": "Mini-Project: showcase of PPL concepts in Express.JS with TypeScript.",
+    "author": "Oscar Bender-Stone"
+}

@@ -1,0 +1,16 @@
+services:
+  web:
+    image: node:lts
+    user: 'node'
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=development
+    ports:
+      - "3000:3000"  # Maps application port to host
+    volumes:
+      # Note: the extra :z flag is
+      # solely for SELinux users.
+      # This should not affect
+      # other Operating Systems
+      - ./:/home/node/app:z
+    command: 'npm start run'
